@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Thot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHd-fX-czC" customClass="CustomButton" customModule="Thot" customModuleProvider="target">
+                                <rect key="frame" x="16" y="595" width="343" height="56"/>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.31764705882352939" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="f0Q-aS-zjr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="100" maxY="0.0"/>
+                                <state key="normal" title="Entrar com Google" image="icon_google_plus">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonSignInTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="c2P-DR-xQ0"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGz-9S-3RD">
+                                <rect key="frame" x="16" y="176" width="343" height="315"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_thot" translatesAutoresizingMaskIntoConstraints="NO" id="ysI-2R-KcM">
+                                        <rect key="frame" x="121.5" y="56" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Onc-6p-TFn"/>
+                                            <constraint firstAttribute="width" constant="100" id="RbB-vg-fDH"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem-vindo ao Thot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHe-1g-aD5">
+                                        <rect key="frame" x="16" y="188" width="311" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="3Xs-Ip-XYu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                        <color key="textColor" red="0.086274509803921567" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Para entrar, conecte-se com seu e-mail da RedSpark" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oWw-ye-QWz">
+                                        <rect key="frame" x="16" y="220" width="311" height="33"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.31372549019607843" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="MHe-1g-aD5" firstAttribute="top" secondItem="ysI-2R-KcM" secondAttribute="bottom" constant="32" id="2mv-0q-jJW"/>
+                                    <constraint firstItem="MHe-1g-aD5" firstAttribute="leading" secondItem="oGz-9S-3RD" secondAttribute="leading" constant="16" id="3Mi-Om-ddo"/>
+                                    <constraint firstItem="ysI-2R-KcM" firstAttribute="centerX" secondItem="oGz-9S-3RD" secondAttribute="centerX" id="6dA-lr-x2k"/>
+                                    <constraint firstItem="oWw-ye-QWz" firstAttribute="top" secondItem="MHe-1g-aD5" secondAttribute="bottom" constant="8" id="CCK-r3-ub6"/>
+                                    <constraint firstAttribute="trailing" secondItem="MHe-1g-aD5" secondAttribute="trailing" constant="16" id="IbR-5P-ubo"/>
+                                    <constraint firstAttribute="trailing" secondItem="oWw-ye-QWz" secondAttribute="trailing" constant="16" id="b43-Cm-z8X"/>
+                                    <constraint firstItem="ysI-2R-KcM" firstAttribute="top" secondItem="oGz-9S-3RD" secondAttribute="top" constant="56" id="gDJ-uM-j4L"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oWw-ye-QWz" secondAttribute="bottom" constant="16" id="nYF-iq-I28"/>
+                                    <constraint firstAttribute="height" constant="315" id="wKA-R5-5O6"/>
+                                    <constraint firstItem="oWw-ye-QWz" firstAttribute="leading" secondItem="oGz-9S-3RD" secondAttribute="leading" constant="16" id="zkv-Yh-4eg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oGz-9S-3RD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5cc-gt-ZOu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oGz-9S-3RD" secondAttribute="trailing" constant="16" id="BUA-Ty-KeR"/>
+                            <constraint firstItem="PHd-fX-czC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ZwQ-xU-GY1"/>
+                            <constraint firstItem="oGz-9S-3RD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="grC-vm-0IO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PHd-fX-czC" secondAttribute="trailing" constant="16" id="v49-d4-k8b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PHd-fX-czC" secondAttribute="bottom" constant="16" id="vJJ-4B-Fu1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonSignIn" destination="PHd-fX-czC" id="1jt-jH-khq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_google_plus" width="24" height="24"/>
+        <image name="icon_thot" width="100" height="99"/>
+    </resources>
+</document>
