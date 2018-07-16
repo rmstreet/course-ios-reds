@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1108955DB94287A27DCCD2FB /* Pods_ThotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDC15814901053593C4E98C /* Pods_ThotTests.framework */; };
+		4C55C8F3DA10FE88EA99FCB4 /* Pods_Thot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20549DB8217DF9AD4740D83 /* Pods_Thot.framework */; };
 		653D46F564A76B1C4C5FA5E0 /* Pods_ThotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6475305865BEF319F8DF311 /* Pods_ThotUITests.framework */; };
 		AC8A2A4020F55FB600B080CA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A2A3F20F55FB600B080CA /* Colors.swift */; };
 		AC8A2A4420F5619700B080CA /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A2A4320F5619700B080CA /* UIColor+HexString.swift */; };
@@ -36,7 +37,6 @@
 		ACC091AC20EEE19F006EA720 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC091A020EEE19F006EA720 /* Roboto-MediumItalic.ttf */; };
 		ACC091AD20EEE19F006EA720 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC091A120EEE19F006EA720 /* Roboto-BoldItalic.ttf */; };
 		ACC091AE20EEE19F006EA720 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC091A220EEE19F006EA720 /* Roboto-BlackItalic.ttf */; };
-		C7F4DC0CC98EE5879B4AEC27 /* Pods_Thot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20549DB8217DF9AD4740D83 /* Pods_Thot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,62 @@
 			proxyType = 1;
 			remoteGlobalIDString = ACC0916220EEBB62006EA720;
 			remoteInfo = Thot;
+		};
+		EC50320420F69521002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5031D420F69521002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA3DD50D9659B29D0003102BF01102B7;
+			remoteInfo = Alamofire;
+		};
+		EC50320620F69521002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5031D420F69521002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D24C43AAD9DC6D9295AC5508E7CC566F;
+			remoteInfo = "Pods-Thot";
+		};
+		EC50320820F69521002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5031D420F69521002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A2578778FC7E01283BCB32D6AAAA549;
+			remoteInfo = "Pods-ThotTests";
+		};
+		EC50320A20F69521002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5031D420F69521002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED32E8818483A16E582C92399EA549F7;
+			remoteInfo = "Pods-ThotUITests";
+		};
+		EC50325520F6953D002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC50322520F6953D002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA3DD50D9659B29D0003102BF01102B7;
+			remoteInfo = Alamofire;
+		};
+		EC50325720F6953D002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC50322520F6953D002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D24C43AAD9DC6D9295AC5508E7CC566F;
+			remoteInfo = "Pods-Thot";
+		};
+		EC50325920F6953D002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC50322520F6953D002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A2578778FC7E01283BCB32D6AAAA549;
+			remoteInfo = "Pods-ThotTests";
+		};
+		EC50325B20F6953D002FDD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC50322520F6953D002FDD35 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED32E8818483A16E582C92399EA549F7;
+			remoteInfo = "Pods-ThotUITests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -99,6 +155,120 @@
 		BA5C484CF77C4A3F3B791B85 /* Pods-Thot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thot/Pods-Thot.release.xcconfig"; sourceTree = "<group>"; };
 		D6475305865BEF319F8DF311 /* Pods_ThotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20549DB8217DF9AD4740D83 /* Pods_Thot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5031BD20F69521002FDD35 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EC5031BE20F69521002FDD35 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EC5031C020F69521002FDD35 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		EC5031C120F69521002FDD35 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		EC5031C220F69521002FDD35 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		EC5031C320F69521002FDD35 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		EC5031C420F69521002FDD35 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		EC5031C520F69521002FDD35 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		EC5031C620F69521002FDD35 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		EC5031C720F69521002FDD35 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		EC5031C820F69521002FDD35 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		EC5031C920F69521002FDD35 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		EC5031CA20F69521002FDD35 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EC5031CB20F69521002FDD35 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		EC5031CC20F69521002FDD35 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		EC5031CD20F69521002FDD35 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		EC5031CE20F69521002FDD35 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		EC5031CF20F69521002FDD35 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		EC5031D020F69521002FDD35 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		EC5031D320F69521002FDD35 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		EC5031D420F69521002FDD35 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		EC5031D920F69521002FDD35 /* Alamofire-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		EC5031DA20F69521002FDD35 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		EC5031DB20F69521002FDD35 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		EC5031DC20F69521002FDD35 /* Alamofire.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		EC5031DD20F69521002FDD35 /* Alamofire.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		EC5031DE20F69521002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5031E020F69521002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5031E120F69521002FDD35 /* Pods-Thot-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-Thot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC5031E220F69521002FDD35 /* Pods-Thot-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-Thot-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC5031E320F69521002FDD35 /* Pods-Thot-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-Thot-dummy.m"; sourceTree = "<group>"; };
+		EC5031E420F69521002FDD35 /* Pods-Thot-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-Thot-frameworks.sh"; sourceTree = "<group>"; };
+		EC5031E520F69521002FDD35 /* Pods-Thot-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-Thot-resources.sh"; sourceTree = "<group>"; };
+		EC5031E620F69521002FDD35 /* Pods-Thot-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-Thot-umbrella.h"; sourceTree = "<group>"; };
+		EC5031E720F69521002FDD35 /* Pods-Thot.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-Thot.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5031E820F69521002FDD35 /* Pods-Thot.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Thot.modulemap"; sourceTree = "<group>"; };
+		EC5031E920F69521002FDD35 /* Pods-Thot.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-Thot.release.xcconfig"; sourceTree = "<group>"; };
+		EC5031EB20F69521002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5031EC20F69521002FDD35 /* Pods-ThotTests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-ThotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC5031ED20F69521002FDD35 /* Pods-ThotTests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-ThotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC5031EE20F69521002FDD35 /* Pods-ThotTests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThotTests-dummy.m"; sourceTree = "<group>"; };
+		EC5031EF20F69521002FDD35 /* Pods-ThotTests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotTests-frameworks.sh"; sourceTree = "<group>"; };
+		EC5031F020F69521002FDD35 /* Pods-ThotTests-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotTests-resources.sh"; sourceTree = "<group>"; };
+		EC5031F120F69521002FDD35 /* Pods-ThotTests-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-ThotTests-umbrella.h"; sourceTree = "<group>"; };
+		EC5031F220F69521002FDD35 /* Pods-ThotTests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5031F320F69521002FDD35 /* Pods-ThotTests.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThotTests.modulemap"; sourceTree = "<group>"; };
+		EC5031F420F69521002FDD35 /* Pods-ThotTests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC5031F620F69521002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5031F720F69521002FDD35 /* Pods-ThotUITests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-ThotUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC5031F820F69521002FDD35 /* Pods-ThotUITests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-ThotUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC5031F920F69521002FDD35 /* Pods-ThotUITests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThotUITests-dummy.m"; sourceTree = "<group>"; };
+		EC5031FA20F69521002FDD35 /* Pods-ThotUITests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EC5031FB20F69521002FDD35 /* Pods-ThotUITests-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotUITests-resources.sh"; sourceTree = "<group>"; };
+		EC5031FC20F69521002FDD35 /* Pods-ThotUITests-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-ThotUITests-umbrella.h"; sourceTree = "<group>"; };
+		EC5031FD20F69521002FDD35 /* Pods-ThotUITests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5031FE20F69521002FDD35 /* Pods-ThotUITests.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThotUITests.modulemap"; sourceTree = "<group>"; };
+		EC5031FF20F69521002FDD35 /* Pods-ThotUITests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC50320E20F6953D002FDD35 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EC50320F20F6953D002FDD35 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EC50321120F6953D002FDD35 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		EC50321220F6953D002FDD35 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		EC50321320F6953D002FDD35 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		EC50321420F6953D002FDD35 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		EC50321520F6953D002FDD35 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		EC50321620F6953D002FDD35 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		EC50321720F6953D002FDD35 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		EC50321820F6953D002FDD35 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		EC50321920F6953D002FDD35 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		EC50321A20F6953D002FDD35 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		EC50321B20F6953D002FDD35 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EC50321C20F6953D002FDD35 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		EC50321D20F6953D002FDD35 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		EC50321E20F6953D002FDD35 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		EC50321F20F6953D002FDD35 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		EC50322020F6953D002FDD35 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		EC50322120F6953D002FDD35 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		EC50322420F6953D002FDD35 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		EC50322520F6953D002FDD35 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		EC50322A20F6953D002FDD35 /* Alamofire-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		EC50322B20F6953D002FDD35 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		EC50322C20F6953D002FDD35 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		EC50322D20F6953D002FDD35 /* Alamofire.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		EC50322E20F6953D002FDD35 /* Alamofire.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		EC50322F20F6953D002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC50323120F6953D002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC50323220F6953D002FDD35 /* Pods-Thot-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-Thot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC50323320F6953D002FDD35 /* Pods-Thot-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-Thot-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC50323420F6953D002FDD35 /* Pods-Thot-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-Thot-dummy.m"; sourceTree = "<group>"; };
+		EC50323520F6953D002FDD35 /* Pods-Thot-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-Thot-frameworks.sh"; sourceTree = "<group>"; };
+		EC50323620F6953D002FDD35 /* Pods-Thot-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-Thot-resources.sh"; sourceTree = "<group>"; };
+		EC50323720F6953D002FDD35 /* Pods-Thot-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-Thot-umbrella.h"; sourceTree = "<group>"; };
+		EC50323820F6953D002FDD35 /* Pods-Thot.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-Thot.debug.xcconfig"; sourceTree = "<group>"; };
+		EC50323920F6953D002FDD35 /* Pods-Thot.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Thot.modulemap"; sourceTree = "<group>"; };
+		EC50323A20F6953D002FDD35 /* Pods-Thot.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-Thot.release.xcconfig"; sourceTree = "<group>"; };
+		EC50323C20F6953D002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC50323D20F6953D002FDD35 /* Pods-ThotTests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-ThotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC50323E20F6953D002FDD35 /* Pods-ThotTests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-ThotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC50323F20F6953D002FDD35 /* Pods-ThotTests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThotTests-dummy.m"; sourceTree = "<group>"; };
+		EC50324020F6953D002FDD35 /* Pods-ThotTests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotTests-frameworks.sh"; sourceTree = "<group>"; };
+		EC50324120F6953D002FDD35 /* Pods-ThotTests-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotTests-resources.sh"; sourceTree = "<group>"; };
+		EC50324220F6953D002FDD35 /* Pods-ThotTests-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-ThotTests-umbrella.h"; sourceTree = "<group>"; };
+		EC50324320F6953D002FDD35 /* Pods-ThotTests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC50324420F6953D002FDD35 /* Pods-ThotTests.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThotTests.modulemap"; sourceTree = "<group>"; };
+		EC50324520F6953D002FDD35 /* Pods-ThotTests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC50324720F6953D002FDD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC50324820F6953D002FDD35 /* Pods-ThotUITests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-ThotUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC50324920F6953D002FDD35 /* Pods-ThotUITests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-ThotUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC50324A20F6953D002FDD35 /* Pods-ThotUITests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThotUITests-dummy.m"; sourceTree = "<group>"; };
+		EC50324B20F6953D002FDD35 /* Pods-ThotUITests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EC50324C20F6953D002FDD35 /* Pods-ThotUITests-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-ThotUITests-resources.sh"; sourceTree = "<group>"; };
+		EC50324D20F6953D002FDD35 /* Pods-ThotUITests-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-ThotUITests-umbrella.h"; sourceTree = "<group>"; };
+		EC50324E20F6953D002FDD35 /* Pods-ThotUITests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC50324F20F6953D002FDD35 /* Pods-ThotUITests.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThotUITests.modulemap"; sourceTree = "<group>"; };
+		EC50325020F6953D002FDD35 /* Pods-ThotUITests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-ThotUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +276,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7F4DC0CC98EE5879B4AEC27 /* Pods_Thot.framework in Frameworks */,
+				4C55C8F3DA10FE88EA99FCB4 /* Pods_Thot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +315,8 @@
 		8EB1D0C907B67383E4DB29FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC5031BB20F69521002FDD35 /* Pods */,
+				EC50320C20F6953D002FDD35 /* Pods */,
 				E20549DB8217DF9AD4740D83 /* Pods_Thot.framework */,
 				4EDC15814901053593C4E98C /* Pods_ThotTests.framework */,
 				D6475305865BEF319F8DF311 /* Pods_ThotUITests.framework */,
@@ -289,6 +461,300 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		EC5031BB20F69521002FDD35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031BC20F69521002FDD35 /* Alamofire */,
+				EC5031D120F69521002FDD35 /* Headers */,
+				EC5031D220F69521002FDD35 /* Local Podspecs */,
+				EC5031D320F69521002FDD35 /* Manifest.lock */,
+				EC5031D420F69521002FDD35 /* Pods.xcodeproj */,
+				EC5031D720F69521002FDD35 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC5031BC20F69521002FDD35 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031BD20F69521002FDD35 /* LICENSE */,
+				EC5031BE20F69521002FDD35 /* README.md */,
+				EC5031BF20F69521002FDD35 /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		EC5031BF20F69521002FDD35 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031C020F69521002FDD35 /* AFError.swift */,
+				EC5031C120F69521002FDD35 /* Alamofire.swift */,
+				EC5031C220F69521002FDD35 /* DispatchQueue+Alamofire.swift */,
+				EC5031C320F69521002FDD35 /* MultipartFormData.swift */,
+				EC5031C420F69521002FDD35 /* NetworkReachabilityManager.swift */,
+				EC5031C520F69521002FDD35 /* Notifications.swift */,
+				EC5031C620F69521002FDD35 /* ParameterEncoding.swift */,
+				EC5031C720F69521002FDD35 /* Request.swift */,
+				EC5031C820F69521002FDD35 /* Response.swift */,
+				EC5031C920F69521002FDD35 /* ResponseSerialization.swift */,
+				EC5031CA20F69521002FDD35 /* Result.swift */,
+				EC5031CB20F69521002FDD35 /* ServerTrustPolicy.swift */,
+				EC5031CC20F69521002FDD35 /* SessionDelegate.swift */,
+				EC5031CD20F69521002FDD35 /* SessionManager.swift */,
+				EC5031CE20F69521002FDD35 /* TaskDelegate.swift */,
+				EC5031CF20F69521002FDD35 /* Timeline.swift */,
+				EC5031D020F69521002FDD35 /* Validation.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EC5031D120F69521002FDD35 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EC5031D220F69521002FDD35 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		EC5031D520F69521002FDD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC50320520F69521002FDD35 /* Alamofire.framework */,
+				EC50320720F69521002FDD35 /* Pods_Thot.framework */,
+				EC50320920F69521002FDD35 /* Pods_ThotTests.framework */,
+				EC50320B20F69521002FDD35 /* Pods_ThotUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5031D720F69521002FDD35 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031D820F69521002FDD35 /* Alamofire */,
+				EC5031DF20F69521002FDD35 /* Pods-Thot */,
+				EC5031EA20F69521002FDD35 /* Pods-ThotTests */,
+				EC5031F520F69521002FDD35 /* Pods-ThotUITests */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		EC5031D820F69521002FDD35 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031D920F69521002FDD35 /* Alamofire-dummy.m */,
+				EC5031DA20F69521002FDD35 /* Alamofire-prefix.pch */,
+				EC5031DB20F69521002FDD35 /* Alamofire-umbrella.h */,
+				EC5031DC20F69521002FDD35 /* Alamofire.modulemap */,
+				EC5031DD20F69521002FDD35 /* Alamofire.xcconfig */,
+				EC5031DE20F69521002FDD35 /* Info.plist */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		EC5031DF20F69521002FDD35 /* Pods-Thot */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031E020F69521002FDD35 /* Info.plist */,
+				EC5031E120F69521002FDD35 /* Pods-Thot-acknowledgements.markdown */,
+				EC5031E220F69521002FDD35 /* Pods-Thot-acknowledgements.plist */,
+				EC5031E320F69521002FDD35 /* Pods-Thot-dummy.m */,
+				EC5031E420F69521002FDD35 /* Pods-Thot-frameworks.sh */,
+				EC5031E520F69521002FDD35 /* Pods-Thot-resources.sh */,
+				EC5031E620F69521002FDD35 /* Pods-Thot-umbrella.h */,
+				EC5031E720F69521002FDD35 /* Pods-Thot.debug.xcconfig */,
+				EC5031E820F69521002FDD35 /* Pods-Thot.modulemap */,
+				EC5031E920F69521002FDD35 /* Pods-Thot.release.xcconfig */,
+			);
+			path = "Pods-Thot";
+			sourceTree = "<group>";
+		};
+		EC5031EA20F69521002FDD35 /* Pods-ThotTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031EB20F69521002FDD35 /* Info.plist */,
+				EC5031EC20F69521002FDD35 /* Pods-ThotTests-acknowledgements.markdown */,
+				EC5031ED20F69521002FDD35 /* Pods-ThotTests-acknowledgements.plist */,
+				EC5031EE20F69521002FDD35 /* Pods-ThotTests-dummy.m */,
+				EC5031EF20F69521002FDD35 /* Pods-ThotTests-frameworks.sh */,
+				EC5031F020F69521002FDD35 /* Pods-ThotTests-resources.sh */,
+				EC5031F120F69521002FDD35 /* Pods-ThotTests-umbrella.h */,
+				EC5031F220F69521002FDD35 /* Pods-ThotTests.debug.xcconfig */,
+				EC5031F320F69521002FDD35 /* Pods-ThotTests.modulemap */,
+				EC5031F420F69521002FDD35 /* Pods-ThotTests.release.xcconfig */,
+			);
+			path = "Pods-ThotTests";
+			sourceTree = "<group>";
+		};
+		EC5031F520F69521002FDD35 /* Pods-ThotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5031F620F69521002FDD35 /* Info.plist */,
+				EC5031F720F69521002FDD35 /* Pods-ThotUITests-acknowledgements.markdown */,
+				EC5031F820F69521002FDD35 /* Pods-ThotUITests-acknowledgements.plist */,
+				EC5031F920F69521002FDD35 /* Pods-ThotUITests-dummy.m */,
+				EC5031FA20F69521002FDD35 /* Pods-ThotUITests-frameworks.sh */,
+				EC5031FB20F69521002FDD35 /* Pods-ThotUITests-resources.sh */,
+				EC5031FC20F69521002FDD35 /* Pods-ThotUITests-umbrella.h */,
+				EC5031FD20F69521002FDD35 /* Pods-ThotUITests.debug.xcconfig */,
+				EC5031FE20F69521002FDD35 /* Pods-ThotUITests.modulemap */,
+				EC5031FF20F69521002FDD35 /* Pods-ThotUITests.release.xcconfig */,
+			);
+			path = "Pods-ThotUITests";
+			sourceTree = "<group>";
+		};
+		EC50320C20F6953D002FDD35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC50320D20F6953D002FDD35 /* Alamofire */,
+				EC50322220F6953D002FDD35 /* Headers */,
+				EC50322320F6953D002FDD35 /* Local Podspecs */,
+				EC50322420F6953D002FDD35 /* Manifest.lock */,
+				EC50322520F6953D002FDD35 /* Pods.xcodeproj */,
+				EC50322820F6953D002FDD35 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC50320D20F6953D002FDD35 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				EC50320E20F6953D002FDD35 /* LICENSE */,
+				EC50320F20F6953D002FDD35 /* README.md */,
+				EC50321020F6953D002FDD35 /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		EC50321020F6953D002FDD35 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC50321120F6953D002FDD35 /* AFError.swift */,
+				EC50321220F6953D002FDD35 /* Alamofire.swift */,
+				EC50321320F6953D002FDD35 /* DispatchQueue+Alamofire.swift */,
+				EC50321420F6953D002FDD35 /* MultipartFormData.swift */,
+				EC50321520F6953D002FDD35 /* NetworkReachabilityManager.swift */,
+				EC50321620F6953D002FDD35 /* Notifications.swift */,
+				EC50321720F6953D002FDD35 /* ParameterEncoding.swift */,
+				EC50321820F6953D002FDD35 /* Request.swift */,
+				EC50321920F6953D002FDD35 /* Response.swift */,
+				EC50321A20F6953D002FDD35 /* ResponseSerialization.swift */,
+				EC50321B20F6953D002FDD35 /* Result.swift */,
+				EC50321C20F6953D002FDD35 /* ServerTrustPolicy.swift */,
+				EC50321D20F6953D002FDD35 /* SessionDelegate.swift */,
+				EC50321E20F6953D002FDD35 /* SessionManager.swift */,
+				EC50321F20F6953D002FDD35 /* TaskDelegate.swift */,
+				EC50322020F6953D002FDD35 /* Timeline.swift */,
+				EC50322120F6953D002FDD35 /* Validation.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EC50322220F6953D002FDD35 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EC50322320F6953D002FDD35 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		EC50322620F6953D002FDD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC50325620F6953D002FDD35 /* Alamofire.framework */,
+				EC50325820F6953D002FDD35 /* Pods_Thot.framework */,
+				EC50325A20F6953D002FDD35 /* Pods_ThotTests.framework */,
+				EC50325C20F6953D002FDD35 /* Pods_ThotUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC50322820F6953D002FDD35 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC50322920F6953D002FDD35 /* Alamofire */,
+				EC50323020F6953D002FDD35 /* Pods-Thot */,
+				EC50323B20F6953D002FDD35 /* Pods-ThotTests */,
+				EC50324620F6953D002FDD35 /* Pods-ThotUITests */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		EC50322920F6953D002FDD35 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				EC50322A20F6953D002FDD35 /* Alamofire-dummy.m */,
+				EC50322B20F6953D002FDD35 /* Alamofire-prefix.pch */,
+				EC50322C20F6953D002FDD35 /* Alamofire-umbrella.h */,
+				EC50322D20F6953D002FDD35 /* Alamofire.modulemap */,
+				EC50322E20F6953D002FDD35 /* Alamofire.xcconfig */,
+				EC50322F20F6953D002FDD35 /* Info.plist */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		EC50323020F6953D002FDD35 /* Pods-Thot */ = {
+			isa = PBXGroup;
+			children = (
+				EC50323120F6953D002FDD35 /* Info.plist */,
+				EC50323220F6953D002FDD35 /* Pods-Thot-acknowledgements.markdown */,
+				EC50323320F6953D002FDD35 /* Pods-Thot-acknowledgements.plist */,
+				EC50323420F6953D002FDD35 /* Pods-Thot-dummy.m */,
+				EC50323520F6953D002FDD35 /* Pods-Thot-frameworks.sh */,
+				EC50323620F6953D002FDD35 /* Pods-Thot-resources.sh */,
+				EC50323720F6953D002FDD35 /* Pods-Thot-umbrella.h */,
+				EC50323820F6953D002FDD35 /* Pods-Thot.debug.xcconfig */,
+				EC50323920F6953D002FDD35 /* Pods-Thot.modulemap */,
+				EC50323A20F6953D002FDD35 /* Pods-Thot.release.xcconfig */,
+			);
+			path = "Pods-Thot";
+			sourceTree = "<group>";
+		};
+		EC50323B20F6953D002FDD35 /* Pods-ThotTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC50323C20F6953D002FDD35 /* Info.plist */,
+				EC50323D20F6953D002FDD35 /* Pods-ThotTests-acknowledgements.markdown */,
+				EC50323E20F6953D002FDD35 /* Pods-ThotTests-acknowledgements.plist */,
+				EC50323F20F6953D002FDD35 /* Pods-ThotTests-dummy.m */,
+				EC50324020F6953D002FDD35 /* Pods-ThotTests-frameworks.sh */,
+				EC50324120F6953D002FDD35 /* Pods-ThotTests-resources.sh */,
+				EC50324220F6953D002FDD35 /* Pods-ThotTests-umbrella.h */,
+				EC50324320F6953D002FDD35 /* Pods-ThotTests.debug.xcconfig */,
+				EC50324420F6953D002FDD35 /* Pods-ThotTests.modulemap */,
+				EC50324520F6953D002FDD35 /* Pods-ThotTests.release.xcconfig */,
+			);
+			path = "Pods-ThotTests";
+			sourceTree = "<group>";
+		};
+		EC50324620F6953D002FDD35 /* Pods-ThotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC50324720F6953D002FDD35 /* Info.plist */,
+				EC50324820F6953D002FDD35 /* Pods-ThotUITests-acknowledgements.markdown */,
+				EC50324920F6953D002FDD35 /* Pods-ThotUITests-acknowledgements.plist */,
+				EC50324A20F6953D002FDD35 /* Pods-ThotUITests-dummy.m */,
+				EC50324B20F6953D002FDD35 /* Pods-ThotUITests-frameworks.sh */,
+				EC50324C20F6953D002FDD35 /* Pods-ThotUITests-resources.sh */,
+				EC50324D20F6953D002FDD35 /* Pods-ThotUITests-umbrella.h */,
+				EC50324E20F6953D002FDD35 /* Pods-ThotUITests.debug.xcconfig */,
+				EC50324F20F6953D002FDD35 /* Pods-ThotUITests.modulemap */,
+				EC50325020F6953D002FDD35 /* Pods-ThotUITests.release.xcconfig */,
+			);
+			path = "Pods-ThotUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +766,7 @@
 				ACC0915F20EEBB62006EA720 /* Sources */,
 				ACC0916020EEBB62006EA720 /* Frameworks */,
 				ACC0916120EEBB62006EA720 /* Resources */,
+				0CCD3442C155E84305BF1C0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,6 +849,16 @@
 			mainGroup = ACC0915A20EEBB62006EA720;
 			productRefGroup = ACC0916420EEBB62006EA720 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EC5031D520F69521002FDD35 /* Products */;
+					ProjectRef = EC5031D420F69521002FDD35 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = EC50322620F6953D002FDD35 /* Products */;
+					ProjectRef = EC50322520F6953D002FDD35 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ACC0916220EEBB62006EA720 /* Thot */,
@@ -390,6 +867,65 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EC50320520F69521002FDD35 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = EC50320420F69521002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC50320720F69521002FDD35 /* Pods_Thot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Thot.framework;
+			remoteRef = EC50320620F69521002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC50320920F69521002FDD35 /* Pods_ThotTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ThotTests.framework;
+			remoteRef = EC50320820F69521002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC50320B20F69521002FDD35 /* Pods_ThotUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ThotUITests.framework;
+			remoteRef = EC50320A20F69521002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC50325620F6953D002FDD35 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = EC50325520F6953D002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC50325820F6953D002FDD35 /* Pods_Thot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Thot.framework;
+			remoteRef = EC50325720F6953D002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC50325A20F6953D002FDD35 /* Pods_ThotTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ThotTests.framework;
+			remoteRef = EC50325920F6953D002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC50325C20F6953D002FDD35 /* Pods_ThotUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ThotUITests.framework;
+			remoteRef = EC50325B20F6953D002FDD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ACC0916120EEBB62006EA720 /* Resources */ = {
@@ -431,6 +967,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CCD3442C155E84305BF1C0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thot/Pods-Thot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thot/Pods-Thot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		190B5456B69BF49672994C0C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -675,16 +1229,18 @@
 			baseConfigurationReference = 206F8EF5FBCB7C14A00B8649 /* Pods-Thot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HLMJKTG63W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Thot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.redspark.Thot;
+				PRODUCT_BUNDLE_IDENTIFIER = net.romulomartins.Thot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -695,16 +1251,18 @@
 			baseConfigurationReference = BA5C484CF77C4A3F3B791B85 /* Pods-Thot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HLMJKTG63W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Thot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.redspark.Thot;
+				PRODUCT_BUNDLE_IDENTIFIER = net.romulomartins.Thot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

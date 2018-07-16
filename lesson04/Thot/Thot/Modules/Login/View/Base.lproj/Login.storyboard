@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login Thot-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Thot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM6-h2-GYB">
+                                <rect key="frame" x="16" y="595" width="343" height="56"/>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.31764705882352939" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="mbb-K0-hqw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="100" maxY="0.0"/>
+                                <state key="normal" title="Entrar com Google" image="icon_google_plus">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonSignInTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNI-KL-QQX"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MyI-Fp-WKM">
+                                <rect key="frame" x="16" y="140" width="343" height="315"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_thot" translatesAutoresizingMaskIntoConstraints="NO" id="n2F-Vu-8qj">
+                                        <rect key="frame" x="121.5" y="56" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="1NU-Tj-FQu"/>
+                                            <constraint firstAttribute="width" constant="100" id="2wP-mG-KO7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bem-vindo ao thot!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jL9-z3-l4I">
+                                        <rect key="frame" x="16" y="188" width="311" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="rnc-DU-Xsc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                        <color key="textColor" red="0.086274509803921567" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="para entrar, conecte-se com o seu e-mail da Redspark." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Atx-nP-Ilo">
+                                        <rect key="frame" x="16" y="220" width="311" height="33"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.31372549019607843" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jL9-z3-l4I" secondAttribute="trailing" constant="16" id="97G-8O-d3o"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Atx-nP-Ilo" secondAttribute="bottom" constant="16" id="I3h-og-2Jo"/>
+                                    <constraint firstItem="n2F-Vu-8qj" firstAttribute="top" secondItem="MyI-Fp-WKM" secondAttribute="top" constant="56" id="L82-kk-ZUu"/>
+                                    <constraint firstItem="jL9-z3-l4I" firstAttribute="top" secondItem="n2F-Vu-8qj" secondAttribute="bottom" constant="32" id="M59-hg-LLS"/>
+                                    <constraint firstItem="Atx-nP-Ilo" firstAttribute="leading" secondItem="MyI-Fp-WKM" secondAttribute="leading" constant="16" id="Tlc-8a-BI1"/>
+                                    <constraint firstItem="jL9-z3-l4I" firstAttribute="leading" secondItem="MyI-Fp-WKM" secondAttribute="leading" constant="16" id="c2E-LF-bM7"/>
+                                    <constraint firstAttribute="height" constant="315" id="lyx-gn-Wo8"/>
+                                    <constraint firstItem="n2F-Vu-8qj" firstAttribute="centerX" secondItem="MyI-Fp-WKM" secondAttribute="centerX" id="vEF-rK-TdI"/>
+                                    <constraint firstAttribute="trailing" secondItem="Atx-nP-Ilo" secondAttribute="trailing" constant="16" id="w5M-kQ-Z7Q"/>
+                                    <constraint firstItem="Atx-nP-Ilo" firstAttribute="top" secondItem="jL9-z3-l4I" secondAttribute="bottom" constant="8" id="x9f-P8-s7j"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MyI-Fp-WKM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-36" id="ARg-2q-5jp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FM6-h2-GYB" secondAttribute="bottom" constant="16" id="XVh-m4-BBU"/>
+                            <constraint firstItem="FM6-h2-GYB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gc8-4a-YYS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MyI-Fp-WKM" secondAttribute="trailing" constant="16" id="iHW-BF-pTo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FM6-h2-GYB" secondAttribute="trailing" constant="16" id="ohd-fA-HsV"/>
+                            <constraint firstItem="MyI-Fp-WKM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xim-Ov-0el"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Login Thot" id="ygQ-fE-h8Y"/>
+                    <connections>
+                        <outlet property="buttonSignIn" destination="FM6-h2-GYB" id="btd-ru-ukF"/>
+                        <outlet property="labelSubTitle" destination="Atx-nP-Ilo" id="9s2-4j-Msh"/>
+                        <outlet property="labelTitle" destination="jL9-z3-l4I" id="UV5-JW-B8w"/>
+                        <outlet property="viewContainerInfo" destination="MyI-Fp-WKM" id="0Ad-bY-HmT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_google_plus" width="24" height="24"/>
+        <image name="icon_thot" width="100" height="99"/>
+    </resources>
+</document>
