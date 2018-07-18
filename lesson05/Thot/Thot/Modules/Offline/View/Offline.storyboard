@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Offline View Controller-->
+        <scene sceneID="zwh-tQ-o3y">
+            <objects>
+                <viewController storyboardIdentifier="OfflineViewController" id="NPC-8E-Zjd" customClass="OfflineViewController" customModule="Thot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QGW-aA-myz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_offline" translatesAutoresizingMaskIntoConstraints="NO" id="C72-Ve-Tmn">
+                                <rect key="frame" x="16" y="196" width="343" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="KSk-wx-bBo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYR-UC-X3l">
+                                <rect key="frame" x="16" y="303" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Te0-db-eQu">
+                                <rect key="frame" x="16" y="523" width="343" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vW-09-mSi">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="Ges-yY-DQl"/>
+                                        </constraints>
+                                        <state key="normal" title="try again"/>
+                                        <connections>
+                                            <action selector="buttonTryAgainTapped" destination="NPC-8E-Zjd" eventType="touchUpInside" id="3It-cx-RAX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHE-HY-5NC">
+                                        <rect key="frame" x="0.0" y="72" width="343" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="aEM-HQ-yCk"/>
+                                        </constraints>
+                                        <state key="normal" title="done"/>
+                                        <connections>
+                                            <action selector="buttonCloseTapped" destination="NPC-8E-Zjd" eventType="touchUpInside" id="HGb-GW-RJN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aXq-9p-Cmq" firstAttribute="trailing" secondItem="Te0-db-eQu" secondAttribute="trailing" constant="16" id="28I-sv-6At"/>
+                            <constraint firstItem="zYR-UC-X3l" firstAttribute="leading" secondItem="aXq-9p-Cmq" secondAttribute="leading" constant="16" id="805-o7-MlS"/>
+                            <constraint firstItem="C72-Ve-Tmn" firstAttribute="leading" secondItem="aXq-9p-Cmq" secondAttribute="leading" constant="16" id="LPx-kg-9R1"/>
+                            <constraint firstItem="C72-Ve-Tmn" firstAttribute="centerY" secondItem="QGW-aA-myz" secondAttribute="centerY" constant="-100" id="Xa5-dP-epd"/>
+                            <constraint firstItem="zYR-UC-X3l" firstAttribute="top" secondItem="C72-Ve-Tmn" secondAttribute="bottom" constant="32" id="aKr-IY-hrr"/>
+                            <constraint firstItem="aXq-9p-Cmq" firstAttribute="trailing" secondItem="zYR-UC-X3l" secondAttribute="trailing" constant="16" id="agq-0f-ZpO"/>
+                            <constraint firstItem="aXq-9p-Cmq" firstAttribute="bottom" secondItem="Te0-db-eQu" secondAttribute="bottom" constant="16" id="km8-Hc-K1u"/>
+                            <constraint firstItem="Te0-db-eQu" firstAttribute="leading" secondItem="aXq-9p-Cmq" secondAttribute="leading" constant="16" id="sGG-fy-8jf"/>
+                            <constraint firstItem="aXq-9p-Cmq" firstAttribute="trailing" secondItem="C72-Ve-Tmn" secondAttribute="trailing" constant="16" id="zon-yA-sIN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aXq-9p-Cmq"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonClose" destination="mHE-HY-5NC" id="Oet-GQ-6hm"/>
+                        <outlet property="buttonTryAgain" destination="4vW-09-mSi" id="fcJ-Ia-Ran"/>
+                        <outlet property="labelInfo" destination="zYR-UC-X3l" id="o4Q-Hk-VH4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lYJ-Dz-mK3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55" y="143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_offline" width="75" height="75"/>
+    </resources>
+</document>

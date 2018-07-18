@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Nimble (7.1.2)
+  - RxSwift (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.2)
+  - Nimble (~> 7.1.2)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Nimble
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Nimble: 3835ba9f459daa6b347f8a8e110aaae8ca1920a8
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+
+PODFILE CHECKSUM: 4e6f42748e49f2b42d361de20cbcb12047ef0258
+
+COCOAPODS: 1.5.3

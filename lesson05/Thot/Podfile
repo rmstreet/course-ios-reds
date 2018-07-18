@@ -1,0 +1,19 @@
+platform :ios, '10.0'
+
+target 'Thot' do
+  use_frameworks!
+
+  pod 'Alamofire', '~> 4.7.2'
+  pod 'RxSwift', '~> 4.0'
+
+  target 'ThotTests' do
+    inherit! :search_paths
+    pod 'Nimble', '~> 7.1.2'
+  end
+
+  target 'ThotUITests' do
+    inherit! :search_paths
+
+  end
+
+end
