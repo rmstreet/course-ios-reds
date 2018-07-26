@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.7.2)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - KeychainAccess (3.1.1)
+  - Nimble (7.1.2)
+  - Realm (3.7.5):
+    - Realm/Headers (= 3.7.5)
+  - Realm/Headers (3.7.5)
+  - RealmSwift (3.7.5):
+    - Realm (= 3.7.5)
+  - RxSwift (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.2)
+  - CodableAlamofire (~> 1.1.0)
+  - KeychainAccess (~> 3.1.1)
+  - Nimble (~> 7.1.2)
+  - RealmSwift (~> 3.7.5)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CodableAlamofire
+    - KeychainAccess
+    - Nimble
+    - Realm
+    - RealmSwift
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  Nimble: 3835ba9f459daa6b347f8a8e110aaae8ca1920a8
+  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
+  RealmSwift: 2a9281e37d6de55f66f76254d49d28aeb1b729e4
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+
+PODFILE CHECKSUM: cb195a648ed64a4c940df512dd2575c3cbe16092
+
+COCOAPODS: 1.5.2
