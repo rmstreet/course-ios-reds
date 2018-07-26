@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Thot
+
+  Created by Marcus Costa on 12/07/18.
+  Copyright © 2018 redspark. All rights reserved.
+*/
+
+// MARK: - Login
+loginTitle = "Login Thot";
+loginTitleMessage = "Bem vindo ao Thot!";
+loginSubTitleMessage = "Para entrar, conecte-se com o seu e-mail da redspark";
+
+// MARK: - Onboarding
+onboardingInfo = "Lorem ipsum sit amet...";
+
+// MARK: - Offline
+offlineMessage = "Parece que você está offline, por favor verifique sua conexão com a internet";
+offlineClose = "Fechar";
+offlineTryAgain = "Tentar novamente";

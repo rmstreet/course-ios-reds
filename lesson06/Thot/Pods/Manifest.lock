@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.7.2)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - KeychainAccess (3.1.1)
+  - Nimble (7.1.2)
+  - RxSwift (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.2)
+  - CodableAlamofire (~> 1.1.0)
+  - KeychainAccess (~> 3.1.1)
+  - Nimble (~> 7.1.2)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CodableAlamofire
+    - KeychainAccess
+    - Nimble
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  Nimble: 3835ba9f459daa6b347f8a8e110aaae8ca1920a8
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+
+PODFILE CHECKSUM: fecc761ebb62d3ed5308c27a9ad0cd3a955e73da
+
+COCOAPODS: 1.5.2
